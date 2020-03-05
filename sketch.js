@@ -14,7 +14,7 @@ function mousePressed() {
 if (mouseY<550&&mouseY>90) {
 boxes.push(new Box(mouseX,mouseY,random(15, 50),random(20,55)));}}
 function draw() {
-background(0);
+background(25);
 var fVal=gSlider.value();
 for (var i=0;i<boxes.length;i++){
 boxes[i].show();}
